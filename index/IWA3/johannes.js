@@ -1,8 +1,8 @@
 // johannes.js
-var firstname = "Johannes"
-var surname = "Potgieter"
-var role = "Intern"
-var johannes = {role:role};
+export const firstname = "Johannes"
+export const surname = "Potgieter"
+export const role = "Intern"
 
-var display= firstname + " " + surname + " (" + role + ")"
+
+const display= firstname + " " + surname + " (" + role + ")"
 document.querySelector('#johannes').innerText = display
