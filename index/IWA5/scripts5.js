@@ -9,7 +9,7 @@ if (location = 'RSA') { shipping === 400 && currency === 'R' }
 
 if (location = 'NAM') {
 shipping = 600 
-const shipping = 800
+
 }
 
 shoes = 300 * 1
